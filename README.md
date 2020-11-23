@@ -4,8 +4,6 @@ Please refer to https://github.com/rocket-pool/smartnode for official informatio
 
 ## Installation
 
-NOTE: Currently only supports lighthouse client!
-
 ```
 cd $HOME
 wget https://raw.githubusercontent.com/RomiRand/smartnode/master/downloads/install.sh
