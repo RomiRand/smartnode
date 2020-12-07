@@ -15,4 +15,8 @@ rocketpool service start
 
 Please don't run `rocketpool service install`, it may causes trouble with the docker-compose installation. 
 
+### Updating:
+First, stop the rocketpool stack: `rocketpool service pause`.
+Then you can just run the steps above to update. Note that your config files will be overwritten, so if you've made any config changes, better take a backup: `sudo cp -r ~/.rocketpool ~/.rocketpool.bak`
+
 If you have any questions or feedback, text me on Discord: `RamiRond#1730`
